@@ -1,0 +1,85 @@
+git config --global user.name "mtt"
+git config --global user.email "mithuns@live.com"
+git status
+touch shell.sh
+git status
+git add shell.sh
+git status
+git rm --cached shell.sh
+git status
+git rm shell.sh
+ls
+git status
+git mv shell.sh bash.sh
+ls
+git add .
+git status
+git rm shell.sh
+git mv shell.sh bash.sh
+ls
+git status
+git rm --cached
+git rm bash.sh
+git rm --cached bash.sh
+ls
+vim bash.sh
+chmod +x bash.sh
+./bash.sh
+git status
+git add bash.sh
+git commit -m"my first commit"
+git status
+git log
+git remote add origin https://github.com/mithuns1986/project1.git
+git branch -M main
+git push -u origin main
+ssh-keygen -t rsa
+cat /home/ubuntu/.ssh/id_rsa.pub
+git remote add origin git@github.com:mithuns1986/project1.git
+git push -u origin main
+git remote help
+git remote remove origin https://github.com/mithuns1986/project1.git
+git remote -v
+git remote remove origin
+git remote -v
+git remote add origin git@github.com:mithuns1986/project1.git
+git branch
+git oush -u origin
+git push -u origin
+git push --set-upstream origin main
+git checkout -b JIRA-178
+git branch
+git branch JIRA-179
+git branch
+git status
+ls
+vim bash.sh
+git status
+git restore bash.sh
+git status
+ls
+cat bash.sh
+vim bash.sh
+./bash.sh
+git add .
+git commit -m"added branching strategy line"
+git staus
+git status
+git status
+git push -u origin JIRA-178
+git checkout main
+cat bash.sh
+git status
+git fetch
+git stauts
+git status
+git pull
+cat bash.sh
+git log
+git log --oneline
+history
+git push help
+git push
+git push --help
+history | cut -c 8-
+
