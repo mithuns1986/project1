@@ -9,6 +9,7 @@ git rm --cached shell.sh
 git status
 git rm shell.sh
 ls
+ls -l
 git status
 git mv shell.sh bash.sh
 ls
