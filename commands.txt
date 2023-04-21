@@ -76,7 +76,6 @@ git status
 git pull
 cat bash.sh
 git log
-git log --oneline
 history
 git push help
 git push
